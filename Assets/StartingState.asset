@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7cf0536d268fe943bf700027155384c, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You've just ended your longest summer of your life. \r\nAhead, you are
+    going to get into a university in which you will spend four years. \r\nYour meticulous
+    choices will form your personality throughout this period. \r\nBe wise.\r\n\r\nYour
+    plane is off tomorrow. \r\nYou have nothing to do now. And your phone suddenly
+    rang.\r\n\r\nA. Go pick up your phone\r\nB. Ignore it\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 5d6fdd75076926543a0e300dc6ccc756, type: 2}
+  - {fileID: 11400000, guid: 64ddea7b6fdbce342af05f0190984ae8, type: 2}
